@@ -30,7 +30,7 @@ description: |-
   You may obtain a copy of the License at
 
   http://www.apache.org/licenses/LICENSE-2.0
-version: 22.7.0
+version: v1
 maintainers:
   - name: IBM
   - name: Cúram SPM Dev Team
@@ -56,23 +56,23 @@ icon: https://avatars2.githubusercontent.com/u/1459110
 
 dependencies:
   - name: apps
-    version: "~22.7.0"
-    repository: "@local-development"
+    version: "~v1"
+    repository: "@tekton-pipelines"
   - name: batch
-    version: "~22.7.0"
-    repository: "@local-development"
+    version: "~v1"
+    repository: "@tekton-pipelines"
   - name: uawebapp
-    version: "~22.7.0"
-    repository: "@local-development"
+    version: "~v1"
+    repository: "@tekton-pipelines"
   - name: web
-    version: "~22.7.0"
-    repository: "@local-development"
+    version: "~v1"
+    repository: "@tekton-pipelines"
   - name: mqserver
-    version: "~22.7.0"
-    repository: "@local-development"
+    version: "~v1"
+    repository: "@tekton-pipelines"
   - name: xmlserver
-    version: "~22.7.0"
-    repository: "@local-development"
+    version: "~v1"
+    repository: "@tekton-pipelines"
   - name: ibm-sch
     repository: "@sch"
     version: "^1.2.19"
