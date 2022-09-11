@@ -20,6 +20,6 @@
 .idea/
 *.tmproj
 .vscode/
-
+configmap-bootstrap.yaml
 # IBM Dev
 cv-tests/
