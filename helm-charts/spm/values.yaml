@@ -24,7 +24,7 @@ global:
     imageTag: latest
     pullPolicy: Always
   imagePullSecret:
-    secretName: registry-access
+    secretName: registry-access-secret
     username: dxctektonspmregistry
   database:
     ## Database connection properties
