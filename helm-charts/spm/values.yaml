@@ -86,7 +86,7 @@ global:
             cpu: 1.5
             memory: 3Gi
       rest:
-        enabled: false
+        enabled: true
         replicaCount: 1
         ingressPath: /Rest
         earName: Rest
@@ -253,16 +253,16 @@ batch:
   streamed: {}
 
 # Override values in 'uawebapp' Chart
-uawebapp: {}
-#  replicaCount: 1
-#  httpsPort: 8443
-#  imageConfig:
-#    library: spm-openshift
-#    name: uawebapp
-#    tag: latest
-#  readinessProbe:
-#    path: /universal/
-#  ingressPath: /universal
+uawebapp: 
+  replicaCount: 1
+  httpsPort: 8443
+  imageConfig:
+    library: spm-openshift
+    name: uawebapp
+    tag: latest
+  readinessProbe:
+    path: /universal/
+  ingressPath: /universal
 
 # Override values in 'web' Chart
 web:
